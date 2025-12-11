@@ -5,13 +5,13 @@ import RightSide from "../../components/RightSide";
 import MobilePhoto from "../../components/MobilePhoto";
 import { Box } from "@mui/material";
 
-export default async function Page({ params }) {
-  const { locale } = await params;
+export default async function Page() {
+  // const { locale } = await params;
 
   return (
-    <Box className="max-w-[1250px] mx-auto flex flex-col sm:flex-row-reverse">
+    <Box className="max-w-[1440px] mx-auto flex flex-col sm:flex-row-reverse">
       <MobilePhoto />
-      <RightSide locale={locale} />
+      <RightSide />
       <LeftSide />
     </Box>
   );
