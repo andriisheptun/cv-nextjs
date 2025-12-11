@@ -15,9 +15,10 @@ export default function LeftSide() {
         <LangSwitcher />
       </Box>
 
-      <figure className="my-6 hidden sm:block">
+      <figure className="my-6 hidden sm:block" aria-hidden="true">
         <img
           src="/img/photo_5213105380194907770_y1.jpg"
+          alt="Andrii Sheptun"
           className="w-60 h-60 rounded-full bg-white object-contain"
         />
       </figure>

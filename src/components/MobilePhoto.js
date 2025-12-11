@@ -3,7 +3,7 @@ import LangSwitcher from "./LangSwitcher";
 
 export default function MobilePhoto() {
   return (
-    <Box className="w-full block sm:hidden relative">
+    <Box className="w-full block sm:hidden relative" aria-hidden="true">
       <Box className="w-20 h-7 absolute top-6 right-0">
         <LangSwitcher />
       </Box>
